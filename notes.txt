@@ -1,0 +1,39 @@
+- React is a JavaScript library for building reusable UI components.
+
+- App.js file is the center of the application. Think of it as the root component, 
+or the wrapper that houses all off the other components.
+To effect any change  on the application, we need  to either modify  App.js  or  add components inside it.
+
+- React componens follow the PascalCase naming convention. 
+Knowing this will help you quickly identify if a function is a component or just a regular function.
+
+- JSX is a syntax extension to JavaScript. We recommend using it with React to describe 
+what the UI should look like. JSX may remind you of a template language, 
+but it comes with the full power of JavaScript. JSX produces React “elements”. 
+
+- React embraces the fact that rendering logic is inherently coupled with other UI logic: 
+how events are handled, how the state changes over time, and how the data is prepared for display.
+
+- Instead of artificially separating technologies by putting markup and logic in separate files, 
+React separates concerns with loosely coupled units called “components” that contain both. 
+
+- React doesn’t require using JSX, but most people find it helpful as a visual aid when working 
+with UI inside the JavaScript code. It also allows React to show more useful error and warning messages.
+
+- Note: Always start component names with a capital letter.
+
+- React treats components starting with lowercase letters as DOM tags. 
+For example, <div /> represents an HTML div tag, but <Welcome /> represents a component 
+and requires Welcome to be in scope.
+
+- JSX = j/s xml = syntax extension system to  j/s
+
+- React components must always return a single parent JSX element.
+ However, this element may have many children elements.
+
+ - As the building blocks of React, components are functions that 
+ can take input and determine how a section of the user interface appears.
+
+ - React also creates a virtual DOM. The virtual DOM allows React to create a declarative UI, 
+ which is later resolved by ReactDOM to sync with the actual DOM, 
+ meaning that only components that changed need to be re-rendered.
