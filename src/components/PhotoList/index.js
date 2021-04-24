@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-// import photos from "../../assets/small/commercial/0.jpg";
-
 function PhotoList({ category }) {
   const [photos] = useState([
     {
@@ -127,7 +125,7 @@ function PhotoList({ category }) {
       <div className="flex-row">
         {currentPhotos.map((image, i) => (
           <img
-            src={process.env.PUBLIC_URL + `../assets/small/${category}/${i}.jpg`}
+            src={`/assets/small/${category}/${i}.jpg`}
             alt={image.name}
             className="img-thumbnail mx-1"
             key={image.name}
